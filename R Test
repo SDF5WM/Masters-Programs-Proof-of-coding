@@ -1,0 +1,11 @@
+?JohnsonJohnson
+data("JohnsonJohnson")
+JJ<-JohnsonJohnson
+class(JJ)
+end(JJ)
+frequency(JJ)
+plot(JJ, ylab="Quarterly Earnings (dollars)", main="Quarterly Earnings per Johnson & Johnson Share", col="dark green")
+logJJ=log(JJ)
+logJJ
+plot(logJJ,ylab="Johnson (log)", col="pink")
+end(JJ)
